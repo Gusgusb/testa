@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 360px) {
+    .BgPrincipal {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 80vh;
+        width: 100%;
+        text-align: center;
+
+        .imgPrincipal {
+            background-image: url(img/principal.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 80vh;
+            margin-left: -120px;
+
+            h3 {
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 400px;
+                margin-left: -35px;
+                font-family: 'Parisienne', cursive;
+font-family: 'Raleway', sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+                color: white;
+                font-size: 85px;
+                font-weight: bold;
+                margin-left: 105px;
+                font-family: 'Parisienne', cursive;
+                margin-top: -25px;
+                margin-bottom: -25px;
+            }
+
+            h2 {
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 30px;
+                font-weight: bold;
+                margin-left: 170px;
+                font-family: 'Parisienne', cursive;
+font-family: 'Raleway', sans-serif;
+            letter-spacing: 0.2cm;
+            }
+        }
+    }
+
+    .ContadorDias {
+        display: flex;
+        flex-direction: column;
+        background-color: rosybrown;
+        height: 15vh;
+        width: 100%;
+        justify-content: center;
+
+        h3 {
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .CeremoniaFiesta {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+
+        img {
+            height: 100px;
+            width: 100px;
+            margin-bottom: 10px;
+            margin-left: 140px;
+        }
+
+        h3 {
+            color: black;
+            font-size: 25px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .w3-button {
+            border-radius: 2em;
+            background-color: rosybrown;
+            width: 200px;
+        }
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 5% auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-sizing: border-box;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+
+        .text-center {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .lightbox-gallery {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .lightbox-gallery div>img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .lightbox-gallery div {
+            margin: 10px;
+            flex-basis: 180px;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .lightbox-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .lightbox>div {
+                margin-bottom: 10px;
+            }
+        }
+
+        /*Lighbox CSS*/
+
+        .lightbox {
+            display: none;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 20;
+            padding-top: 30px;
+            box-sizing: border-box;
+        }
+
+        .lightbox img {
+            display: block;
+            margin: auto;
+        }
+
+        .lightbox .caption {
+            margin: 15px auto;
+            width: 50%;
+            text-align: center;
+            font-size: 1em;
+            line-height: 1.5;
+            font-weight: 700;
+            color: #eee;
+        }
+
+        .github-link {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .github-link:hover,
+        .github-link:active,
+        .github-link:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    .Regalo{
+        background-color: rosybrown;
+        height: 40vh;
+        width: 100%;
+        text-align: center;
+        img{
+            height: 70px;
+            width: 70px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        h4{
+            color: white;
+        }
+        .w3-button{
+                border-radius: 2em;
+                background-color: rosybrown;
+                width: 250px;
+                text-transform: uppercase;
+                color: white; 
+    }
+}
+
+    .ConfirmarAsistencia{
+        height: 40vh;
+        width: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        h3{
+            text-transform: uppercase;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        p{
+            color: black;
+            margin-bottom: 25px;
+        }
+        .w3-button{
+            border-radius: 2em;
+            background-color: rosybrown;
+            width: 220px;
+            text-transform: uppercase;
+        }
+    }
+    
+    .DressCode{
+        height: 20vh;
+        width: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: cadetblue;
+
+        h3{
+            text-transform: uppercase;  
+            color: white;     
+        }
+        p{
+            color: white;
+        }
+    }
+    .Instagram{
+        height: 50vh;
+        width: 100%;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        background-image: url(img/party.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        img{
+            height: 70px;
+            width: 70px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: gold;
+            font-weight: bolder;
+        }
+        p{
+            color: white;
+            margin-bottom: 15px;
+        }
+        .w3-button{
+            border-radius: 2em;
+            background-color: rosybrown;
+            width: 250px;
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+}
