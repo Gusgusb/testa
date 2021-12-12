@@ -75,38 +75,29 @@ font-family: 'Raleway', sans-serif;
     }
 
     .CeremoniaFiesta {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        height: 50vh;
+        background-color: rosybrown;
+        height: 60vh;
         width: 100%;
-
-        img {
-            height: 100px;
-            width: 100px;
+        text-align: center;
+        img{
+            height: 70px;
+            width: 70px;
+            margin-top: 50px;
             margin-bottom: 10px;
-            margin-left: 140px;
         }
-
-        h3 {
-            color: black;
-            font-size: 25px;
-            margin-bottom: 10px;
-            text-align: center;
+        h3{
+            color: white;
         }
-
-        p {
-            margin-bottom: 15px;
-            text-align: center;
+        p{
+            color: white;
         }
-
-        .w3-button {
-            border-radius: 2em;
-            background-color: rosybrown;
-            width: 200px;
-        }
+        .w3-button{
+                border-radius: 2em;
+                background-color: rosybrown;
+                width: 250px;
+                text-transform: uppercase;
+                color: white; 
+    }
     }
 
     .container {
@@ -364,38 +355,29 @@ font-family: 'Raleway', sans-serif;
     }
 
     .CeremoniaFiesta {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        height: 50vh;
+        background-color: rosybrown;
+        height: 60vh;
         width: 100%;
-
-        img {
-            height: 100px;
-            width: 100px;
+        text-align: center;
+        img{
+            height: 70px;
+            width: 70px;
+            margin-top: 50px;
             margin-bottom: 10px;
-            margin-left: 140px;
         }
-
-        h3 {
-            color: black;
-            font-size: 25px;
-            margin-bottom: 10px;
-            text-align: center;
+        h3{
+            color: white;
         }
-
-        p {
-            margin-bottom: 15px;
-            text-align: center;
+        p{
+            color: white;
         }
-
-        .w3-button {
-            border-radius: 2em;
-            background-color: rosybrown;
-            width: 200px;
-        }
+        .w3-button{
+                border-radius: 2em;
+                background-color: rosybrown;
+                width: 250px;
+                text-transform: uppercase;
+                color: white; 
+    }
     }
 
     .container {
