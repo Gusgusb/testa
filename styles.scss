@@ -201,23 +201,22 @@
             color: white;
             margin-top: 5px;
         }
-        .datosBancarios{
-            width: 100%;
-            height: 220px;
-            border: white 2px solid;
-            border-radius: 1em;
-            background-color: rosybrown;
-            margin-top: 15px;
-            text-align: center;
-            justify-content: center;
-            h2{
+        .linea {
+            border-top: 3px solid white;
+            height: 2px;
+            max-width: 200px;
+            padding: 0;
+            margin: 20px auto 0 auto;
+        }
+        h2{
                 margin-top: 12px;
                 color: white;
+                text-decoration: none;
                 span{
                     font-weight: bolder;
                 }
             }
-        }
+        
 }
 
     .ConfirmarAsistencia{

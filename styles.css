@@ -195,21 +195,19 @@
     color: white;
     margin-top: 5px;
   }
-  .Regalo .datosBancarios {
-    width: 100%;
-    height: 220px;
-    border: white 2px solid;
-    border-radius: 1em;
-    background-color: rosybrown;
-    margin-top: 15px;
-    text-align: center;
-    justify-content: center;
+  .Regalo .linea {
+    border-top: 3px solid white;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
   }
-  .Regalo .datosBancarios h2 {
+  .Regalo h2 {
     margin-top: 12px;
     color: white;
+    text-decoration: none;
   }
-  .Regalo .datosBancarios h2 span {
+  .Regalo h2 span {
     font-weight: bolder;
   }
 }
