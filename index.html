@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
     <!-- //FONTS// -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +37,7 @@
 
     <div class="ContadorDias">
         <h3>Faltan</h3>
-        <h3>40 d, 19 hs, 34 m, 58 s</h3>
+        <div id="countdown1"></div>
     </div>
 
     <div class="CeremoniaFiesta">
@@ -46,9 +50,9 @@
     </div>
 
     <div class="container NuestraHistoria">
-        <h2 class="text-center">Nuestra Historia...</h2>
+        <h2 class="text-center">NOSOTROS</h2>
         <div class="lightbox-gallery">
-            <div><img src="img/IMG_2524.jpeg" data-image-hd="https://picsum.photos/id/343/600/600"
+            <div><img src="img/IMG_2524.jpeg" data-image-hd="https://picsum.photos/id/343/600/600" class="holii"
                     alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quae, quam. Ut dolorum quia, unde dicta at harum porro officia obcaecati ipsam deserunt fugit dolore delectus quam, maxime nisi quo.">
             </div>
             <div><img src="img/IMG_2576.jpeg" data-image-hd="https://picsum.photos/id/112/600/600"
@@ -71,9 +75,15 @@
 
     <div class="Regalo">
         <img src="img/gift-box.png" alt="caja regalo">
-        <h4>Si deseás realizarnos un regalo <br> podés
+        <h4 class="prueba">Si deseás realizarnos un regalo <br> podés
             colaborar con nuestra <br> Luna de Miel...</h4>
-        <button class="w3-button w3-pale-red">ver datos bancarios</button>
+        <div class="datosBancarios">
+        <h2><span>Nro:</span> 444444444444</h2>
+        <h2><span>CBU:</span> 04444444444444</h2>  
+        <h2><span>Alias:</span> ANTO.PEDRO.BODA</h2>
+        <h2><span>Titular:</span> Antonella Mariana Greco</h2>
+        <h2><span>DNI:</span> 47689618</h2>
+        </div>
     </div>
 
     <div class="ConfirmarAsistencia">
@@ -83,6 +93,7 @@
     </div>
 
     <div class="DressCode">
+        <img src="img/vestido.png" alt="anillos de boda">
         <h3>dress code</h3>
         <p>Formal. Menos blanco, ¡todo vale!</p>
     </div>
@@ -101,7 +112,20 @@
     </div>
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
+
+   
+    
+
+
 </body>
 
 </html>

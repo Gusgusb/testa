@@ -25,12 +25,11 @@
                 text-align: center;
                 color: white;
                 text-transform: uppercase;
-                font-size: 20px;
-                font-weight: bold;
-                margin-top: 500px;
-                // margin-left: -20px;
-                font-family: 'Parisienne', cursive;
-font-family: 'Raleway', sans-serif;
+                font-size: 22px;
+                margin-left: 80px;
+                font-weight: bolder;
+                margin-top: 400px;
+                font-family: 'Raleway', sans-serif;
             }
 
             h1 {
@@ -38,10 +37,10 @@ font-family: 'Raleway', sans-serif;
                 color: white;
                 font-size: 85px;
                 font-weight: bold;
-                margin-left: 145px;
+                margin-left: 165px;
                 font-family: 'Parisienne', cursive;
-                margin-top: -25px;
-                margin-bottom: -25px;
+                margin-top: -10px;
+                margin-bottom: -15px;
             }
 
             h2 {
@@ -50,10 +49,9 @@ font-family: 'Raleway', sans-serif;
                 text-transform: uppercase;
                 font-size: 28px;
                 font-weight: bold;
-                margin-left: 190px;
-                font-family: 'Parisienne', cursive;
-font-family: 'Raleway', sans-serif;
-            letter-spacing: 0.2cm;
+                margin-left: 210px;
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 0.2cm;
             }
         }
     }
@@ -125,6 +123,7 @@ font-family: 'Raleway', sans-serif;
         .lightbox-gallery div>img {
             max-width: 100%;
             display: block;
+            border-radius: 1em;
         }
 
         .lightbox-gallery div {
@@ -161,6 +160,7 @@ font-family: 'Raleway', sans-serif;
         .lightbox img {
             display: block;
             margin: auto;
+            border-radius: 1em;
         }
 
         .lightbox .caption {
@@ -188,7 +188,7 @@ font-family: 'Raleway', sans-serif;
 
     .Regalo{
         background-color: rosybrown;
-        height: 40vh;
+        height: 60vh;
         width: 100%;
         text-align: center;
         img{
@@ -199,14 +199,26 @@ font-family: 'Raleway', sans-serif;
         }
         h4{
             color: white;
+            margin-top: 5px;
         }
-        .w3-button{
-                border-radius: 2em;
-                background-color: rosybrown;
-                width: 250px;
-                text-transform: uppercase;
-                color: white; 
-    }
+        .datosBancarios{
+            width: 340px;
+            height: 220px;
+            border: white 2px solid;
+            border-radius: 1em;
+            background-color: rosybrown;
+            margin-top: 15px;
+            margin-left: 10px;
+            text-align: center;
+            justify-content: center;
+            h2{
+                margin-top: 8px;
+                color: white;
+                span{
+                    font-weight: bolder;
+                }
+            }
+        }
 }
 
     .ConfirmarAsistencia{
@@ -234,21 +246,28 @@ font-family: 'Raleway', sans-serif;
     }
 
     .DressCode{
-        height: 20vh;
+        height: 30vh;
         width: 100%;
         color: black;
-        display: flex;
-        flex-direction: column;
         text-align: center;
         justify-content: center;
         background-color: cadetblue;
-
+        img{
+            height: 70px;
+            width: 70px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
         h3{
             text-transform: uppercase;  
             color: white;     
+            font-weight: bolder;
+            letter-spacing: 0.1cm;
+            margin-bottom: 10px;
         }
         p{
             color: white;
+            
         }
     }
     .Instagram{
@@ -306,11 +325,9 @@ font-family: 'Raleway', sans-serif;
                 color: white;
                 text-transform: uppercase;
                 font-size: 20px;
-                font-weight: bold;
-                margin-top: 500px;
-                // margin-left: -20px;
-                font-family: 'Parisienne', cursive;
-font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+                margin-top: 400px;
+                font-family: 'Raleway', sans-serif;
             }
 
             h1 {
@@ -318,10 +335,10 @@ font-family: 'Raleway', sans-serif;
                 color: white;
                 font-size: 85px;
                 font-weight: bold;
-                margin-left: 145px;
+                margin-left: 165px;
                 font-family: 'Parisienne', cursive;
-                margin-top: -25px;
-                margin-bottom: -25px;
+                margin-top: -10px;
+                margin-bottom: -15px;
             }
 
             h2 {
@@ -330,10 +347,9 @@ font-family: 'Raleway', sans-serif;
                 text-transform: uppercase;
                 font-size: 28px;
                 font-weight: bold;
-                margin-left: 190px;
-                font-family: 'Parisienne', cursive;
-font-family: 'Raleway', sans-serif;
-            letter-spacing: 0.2cm;
+                margin-left: 210px;
+                font-family: 'Raleway', sans-serif;
+                letter-spacing: 0.2cm;
             }
         }
     }
@@ -468,7 +484,7 @@ font-family: 'Raleway', sans-serif;
 
     .Regalo{
         background-color: rosybrown;
-        height: 40vh;
+        height: 60vh;
         width: 100%;
         text-align: center;
         img{
@@ -479,14 +495,26 @@ font-family: 'Raleway', sans-serif;
         }
         h4{
             color: white;
+            margin-top: 5px;
         }
-        .w3-button{
-                border-radius: 2em;
-                background-color: rosybrown;
-                width: 250px;
-                text-transform: uppercase;
-                color: white; 
-    }
+        .datosBancarios{
+            width: 500px;
+            height: 250px;
+            border: white 2px solid;
+            border-radius: 1em;
+            background-color: rosybrown;
+            margin-top: 15px;
+            margin-left: 150px;
+            text-align: center;
+            justify-content: center;
+            h2{
+                margin-top: 8px;
+                color: white;
+                span{
+                    font-weight: bolder;
+                }
+            }
+        }
 }
 
     .ConfirmarAsistencia{
@@ -564,3 +592,7 @@ font-family: 'Raleway', sans-serif;
         }
     }
 }
+
+
+
+

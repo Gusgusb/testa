@@ -24,10 +24,10 @@
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 500px;
-    font-family: "Parisienne", cursive;
+    font-size: 22px;
+    margin-left: 80px;
+    font-weight: bolder;
+    margin-top: 400px;
     font-family: "Raleway", sans-serif;
   }
   .BgPrincipal .imgPrincipal h1 {
@@ -35,10 +35,10 @@
     color: white;
     font-size: 85px;
     font-weight: bold;
-    margin-left: 145px;
+    margin-left: 165px;
     font-family: "Parisienne", cursive;
-    margin-top: -25px;
-    margin-bottom: -25px;
+    margin-top: -10px;
+    margin-bottom: -15px;
   }
   .BgPrincipal .imgPrincipal h2 {
     text-align: center;
@@ -46,8 +46,7 @@
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
-    margin-left: 190px;
-    font-family: "Parisienne", cursive;
+    margin-left: 210px;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.2cm;
   }
@@ -117,6 +116,7 @@
   .container .lightbox-gallery div > img {
     max-width: 100%;
     display: block;
+    border-radius: 1em;
   }
   .container .lightbox-gallery div {
     margin: 10px;
@@ -150,6 +150,7 @@
   .container .lightbox img {
     display: block;
     margin: auto;
+    border-radius: 1em;
   }
 }
 @media only screen and (min-width: 360px) {
@@ -180,7 +181,7 @@
 @media only screen and (min-width: 360px) {
   .Regalo {
     background-color: rosybrown;
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     text-align: center;
   }
@@ -192,13 +193,25 @@
   }
   .Regalo h4 {
     color: white;
+    margin-top: 5px;
   }
-  .Regalo .w3-button {
-    border-radius: 2em;
+  .Regalo .datosBancarios {
+    width: 340px;
+    height: 220px;
+    border: white 2px solid;
+    border-radius: 1em;
     background-color: rosybrown;
-    width: 250px;
-    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .Regalo .datosBancarios h2 {
+    margin-top: 8px;
     color: white;
+  }
+  .Regalo .datosBancarios h2 span {
+    font-weight: bolder;
   }
 }
 @media only screen and (min-width: 360px) {
@@ -228,18 +241,25 @@
 }
 @media only screen and (min-width: 360px) {
   .DressCode {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     color: black;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: center;
     background-color: cadetblue;
   }
+  .DressCode img {
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
   .DressCode h3 {
     text-transform: uppercase;
     color: white;
+    font-weight: bolder;
+    letter-spacing: 0.1cm;
+    margin-bottom: 10px;
   }
   .DressCode p {
     color: white;
@@ -300,9 +320,8 @@
     color: white;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 500px;
-    font-family: "Parisienne", cursive;
+    font-weight: bolder;
+    margin-top: 400px;
     font-family: "Raleway", sans-serif;
   }
   .BgPrincipal .imgPrincipal h1 {
@@ -310,10 +329,10 @@
     color: white;
     font-size: 85px;
     font-weight: bold;
-    margin-left: 145px;
+    margin-left: 165px;
     font-family: "Parisienne", cursive;
-    margin-top: -25px;
-    margin-bottom: -25px;
+    margin-top: -10px;
+    margin-bottom: -15px;
   }
   .BgPrincipal .imgPrincipal h2 {
     text-align: center;
@@ -321,8 +340,7 @@
     text-transform: uppercase;
     font-size: 28px;
     font-weight: bold;
-    margin-left: 190px;
-    font-family: "Parisienne", cursive;
+    margin-left: 210px;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.2cm;
   }
@@ -455,7 +473,7 @@
 @media only screen and (min-width: 768px) {
   .Regalo {
     background-color: rosybrown;
-    height: 40vh;
+    height: 60vh;
     width: 100%;
     text-align: center;
   }
@@ -467,13 +485,25 @@
   }
   .Regalo h4 {
     color: white;
+    margin-top: 5px;
   }
-  .Regalo .w3-button {
-    border-radius: 2em;
+  .Regalo .datosBancarios {
+    width: 500px;
+    height: 250px;
+    border: white 2px solid;
+    border-radius: 1em;
     background-color: rosybrown;
-    width: 250px;
-    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 150px;
+    text-align: center;
+    justify-content: center;
+  }
+  .Regalo .datosBancarios h2 {
+    margin-top: 8px;
     color: white;
+  }
+  .Regalo .datosBancarios h2 span {
+    font-weight: bolder;
   }
 }
 @media only screen and (min-width: 768px) {
