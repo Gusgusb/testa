@@ -1,40 +1,14 @@
-// Create a lightbox
-(function() {
-    var $lightbox = $("<div class='lightbox'></div>");
-    var $img = $("<img>");
-    var $caption = $("<p class='caption'></p>");
-  
-    // Add image and caption to lightbox
-  
-    $lightbox
-      .append($img)
-      .append($caption);
-  
-    // Add lighbox to document
-  
-    $('body').append($lightbox);
-  
-    $('.lightbox-gallery img').click(function(e) {
-      e.preventDefault();
-  
-      // Get image link and description
-      var src = $(this).attr("data-image-hd");
-      var cap = $(this).attr("alt");
-  
-      // Add data to lighbox
-  
-      $img.attr('src', src);
-      $caption.text(cap);
-  
-      // Show lightbox
-  
-      $lightbox.fadeIn('fast');
-  
-      $lightbox.click(function() {
-        $lightbox.fadeOut('fast');
-      });
-    });
-  
-  }());
+document.querySelectorAll('.contenedor-modal .overlay').forEach((el) => {
+	el.addEventListener('click', function (ev) {
+		ev.stopPropagation();
+		this.parentNode.classList.add('active');
+	});
+});
+
+document.querySelectorAll('.contenedor-modal ').forEach((el) => {
+	el.addEventListener('click', function (ev) {
+		this.classList.remove('active');
+	});
+});
 
 
