@@ -196,18 +196,17 @@
     margin-top: 5px;
   }
   .Regalo .datosBancarios {
-    width: 340px;
+    width: 100%;
     height: 220px;
     border: white 2px solid;
     border-radius: 1em;
     background-color: rosybrown;
     margin-top: 15px;
-    margin-left: 10px;
     text-align: center;
     justify-content: center;
   }
   .Regalo .datosBancarios h2 {
-    margin-top: 8px;
+    margin-top: 12px;
     color: white;
   }
   .Regalo .datosBancarios h2 span {
