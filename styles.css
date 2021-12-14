@@ -181,7 +181,7 @@
 @media only screen and (min-width: 360px) {
   .Regalo {
     background-color: rosybrown;
-    height: 70vh;
+    height: 90vh;
     width: 100%;
     text-align: center;
   }
@@ -266,32 +266,31 @@
   }
 }
 @media only screen and (min-width: 360px) {
-  .Instagram {
+  .spotifyLista {
     height: 50vh;
     width: 100%;
     color: black;
     text-align: center;
     justify-content: center;
-    background-image: url(img/party.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: white;
   }
-  .Instagram img {
+  .spotifyLista img {
     height: 70px;
     width: 70px;
     margin-top: 50px;
     margin-bottom: 10px;
   }
-  .Instagram h2 {
-    color: gold;
+  .spotifyLista h2 {
+    color: black;
     font-weight: bolder;
+    text-transform: uppercase;
   }
-  .Instagram p {
-    color: white;
+  .spotifyLista p {
+    color: black;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
-  .Instagram .w3-button {
+  .spotifyLista .w3-button {
     border-radius: 2em;
     background-color: rosybrown;
     width: 250px;
@@ -473,7 +472,7 @@
 @media only screen and (min-width: 768px) {
   .Regalo {
     background-color: rosybrown;
-    height: 60vh;
+    height: 90vh;
     width: 100%;
     text-align: center;
   }
@@ -486,23 +485,23 @@
   .Regalo h4 {
     color: white;
     margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .Regalo .linea {
+    border-top: 3px solid white;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
   }
   .Regalo .datosBancarios {
-    width: 500px;
-    height: 250px;
-    border: white 2px solid;
-    border-radius: 1em;
-    background-color: rosybrown;
-    margin-top: 15px;
-    margin-left: 150px;
-    text-align: center;
-    justify-content: center;
-  }
-  .Regalo .datosBancarios h2 {
-    margin-top: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: white;
+    text-decoration: none;
+    text-transform: none;
   }
-  .Regalo .datosBancarios h2 span {
+  .Regalo .datosBancarios span {
     font-weight: bolder;
   }
 }

@@ -188,7 +188,7 @@
 
     .Regalo{
         background-color: rosybrown;
-        height: 70vh;
+        height: 90vh;
         width: 100%;
         text-align: center;
         img{
@@ -271,16 +271,17 @@
             
         }
     }
-    .Instagram{
+    .spotifyLista{
         height: 50vh;
         width: 100%;
         color: black;
         text-align: center;
         justify-content: center;
-        background-image: url(img/party.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+        // background-image: url(img/party.jpg);
+        // background-position: center;
+        // background-size: cover;
+        // background-repeat: no-repeat;
+        background-color: white;
         img{
             height: 70px;
             width: 70px;
@@ -288,11 +289,13 @@
             margin-bottom: 10px;
         }
         h2{
-            color: gold;
+            color: black;
             font-weight: bolder;
+            text-transform: uppercase;
         }
         p{
-            color: white;
+            color: black;
+            margin-top: 15px;
             margin-bottom: 15px;
         }
         .w3-button{
@@ -485,7 +488,7 @@
 
     .Regalo{
         background-color: rosybrown;
-        height: 60vh;
+        height: 90vh;
         width: 100%;
         text-align: center;
         img{
@@ -497,25 +500,26 @@
         h4{
             color: white;
             margin-top: 5px;
+            margin-bottom: 25px;
+        }
+        .linea {
+            border-top: 3px solid white;
+            height: 2px;
+            max-width: 200px;
+            padding: 0;
+            margin: 20px auto 0 auto;
         }
         .datosBancarios{
-            width: 500px;
-            height: 250px;
-            border: white 2px solid;
-            border-radius: 1em;
-            background-color: rosybrown;
-            margin-top: 15px;
-            margin-left: 150px;
-            text-align: center;
-            justify-content: center;
-            h2{
-                margin-top: 8px;
+                margin-top: 25px;
+                margin-bottom: 25px;
                 color: white;
+                text-decoration: none;
+                text-transform: none;
                 span{
                     font-weight: bolder;
                 }
             }
-        }
+        
 }
 
     .ConfirmarAsistencia{
