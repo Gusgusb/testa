@@ -181,7 +181,7 @@
 @media only screen and (min-width: 360px) {
   .Regalo {
     background-color: rosybrown;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     text-align: center;
   }
@@ -194,6 +194,7 @@
   .Regalo h4 {
     color: white;
     margin-top: 5px;
+    margin-bottom: 25px;
   }
   .Regalo .linea {
     border-top: 3px solid white;
@@ -202,12 +203,14 @@
     padding: 0;
     margin: 20px auto 0 auto;
   }
-  .Regalo h2 {
-    margin-top: 12px;
+  .Regalo .datosBancarios {
+    margin-top: 25px;
+    margin-bottom: 25px;
     color: white;
     text-decoration: none;
+    text-transform: none;
   }
-  .Regalo h2 span {
+  .Regalo .datosBancarios span {
     font-weight: bolder;
   }
 }

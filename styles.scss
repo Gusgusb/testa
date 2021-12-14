@@ -188,7 +188,7 @@
 
     .Regalo{
         background-color: rosybrown;
-        height: 60vh;
+        height: 70vh;
         width: 100%;
         text-align: center;
         img{
@@ -200,6 +200,7 @@
         h4{
             color: white;
             margin-top: 5px;
+            margin-bottom: 25px;
         }
         .linea {
             border-top: 3px solid white;
@@ -208,10 +209,12 @@
             padding: 0;
             margin: 20px auto 0 auto;
         }
-        h2{
-                margin-top: 12px;
+        .datosBancarios{
+                margin-top: 25px;
+                margin-bottom: 25px;
                 color: white;
                 text-decoration: none;
+                text-transform: none;
                 span{
                     font-weight: bolder;
                 }
