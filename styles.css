@@ -50,6 +50,66 @@
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.2cm;
   }
+  .BgPrincipal .arrow {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 200px;
+    transform-origin: 50% 50%;
+    transform: translate3d(-50%, -50%, 0);
+  }
+  .BgPrincipal .arrow-first {
+    -webkit-animation: arrow-movement 2s ease-in-out infinite;
+            animation: arrow-movement 2s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow-second {
+    -webkit-animation: arrow-movement 2s 1s ease-in-out infinite;
+            animation: arrow-movement 2s 1s ease-in-out infinite;
+  }
+  .BgPrincipal .arrow:before,
+.BgPrincipal .arrow:after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+  }
+  .BgPrincipal .arrow:before {
+    transform: rotate(45deg) translateX(-23%);
+    transform-origin: top left;
+  }
+  .BgPrincipal .arrow:after {
+    transform: rotate(-45deg) translateX(23%);
+    transform-origin: top right;
+  }
+  @-webkit-keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes arrow-movement {
+    0% {
+      opacity: 0;
+      top: 45%;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 
   .ContadorDias {
     display: flex;
@@ -100,20 +160,11 @@
     width: 250px;
   }
 
-  .nosotros {
-    display: flex;
-    flex-direction: column;
-    background-color: #f2cbc2;
-    height: 8vh;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 15px;
-  }
   .nosotros h3 {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
   }
 
