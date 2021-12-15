@@ -184,7 +184,7 @@
 
   .Regalo {
     background-color: rosybrown;
-    height: 90vh;
+    height: 40vh;
     width: 100%;
     text-align: center;
   }
@@ -199,6 +199,13 @@
     margin-top: 5px;
     margin-bottom: 25px;
   }
+  .Regalo .w3-button {
+    border-radius: 2em;
+    background-color: rosybrown;
+    width: 250px;
+    text-transform: uppercase;
+    color: white;
+  }
   .Regalo .linea {
     border-top: 3px solid white;
     height: 2px;
@@ -206,15 +213,20 @@
     padding: 0;
     margin: 20px auto 0 auto;
   }
-  .Regalo .datosBancarios {
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+  .datosBancarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rosybrown;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
     color: white;
-    text-decoration: none;
-    text-transform: none;
   }
-  .Regalo .datosBancarios span {
+  .datosBancarios span {
     font-weight: bolder;
+    color: white;
   }
 
   .ConfirmarAsistencia {
@@ -385,77 +397,95 @@
     color: white;
   }
 
-  .container {
-    max-width: 800px;
-    margin: 5% auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-sizing: border-box;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
-    /*Lighbox CSS*/
-  }
-  .container .text-center {
-    text-align: center;
-    margin-bottom: 1em;
-  }
-  .container .lightbox-gallery {
+  .galeria {
     display: flex;
-    flex-direction: row;
+    width: 88%;
+    margin-top: 25px;
+    margin: auto;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
+    z-index: 1;
   }
-  .container .lightbox-gallery div > img {
-    max-width: 100%;
-    display: block;
+
+  .galeria .foto {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+    transition: 0.6s ease;
   }
-  .container .lightbox-gallery div {
-    margin: 10px;
-    flex-basis: 180px;
+
+  .galeria .foto:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
   }
-}
-@media only screen and (min-width: 768px) and (max-width: 480px) {
-  .container .lightbox-gallery {
-    flex-direction: column;
-    align-items: center;
+
+  .foto img {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
   }
-  .container .lightbox > div {
-    margin-bottom: 10px;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .container .lightbox {
-    display: none;
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, #cfd9df96 0%, #e2ebf0a1 100%);
     width: 100%;
+    height: 0;
+    transition: 0.55s ease;
+    overflow: hidden;
+  }
+
+  .overlay h2 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .foto:hover .overlay {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /*---------------------*/
+  .contenedor-modal.active {
     position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 0;
     left: 0;
-    z-index: 20;
-    padding-top: 30px;
-    box-sizing: border-box;
+    z-index: 2;
   }
-}
-@media only screen and (min-width: 768px) {
-  .container .lightbox img {
-    display: block;
-    margin: auto;
+
+  .contenedor-modal.active img {
+    z-index: 3;
+    width: 400px;
+    height: 400px;
   }
-}
-@media only screen and (min-width: 768px) {
-  .container .lightbox .caption {
-    margin: 15px auto;
-    width: 50%;
-    text-align: center;
-    font-size: 1em;
-    line-height: 1.5;
-    font-weight: 700;
-    color: #eee;
+
+  .contenedor-modal.active::after {
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(211, 211, 211, 0.459);
   }
-}
-@media only screen and (min-width: 768px) {
+
   .Regalo {
     background-color: rosybrown;
     height: 90vh;
@@ -490,8 +520,7 @@
   .Regalo .datosBancarios span {
     font-weight: bolder;
   }
-}
-@media only screen and (min-width: 768px) {
+
   .ConfirmarAsistencia {
     height: 40vh;
     width: 100%;
@@ -515,53 +544,57 @@
     width: 220px;
     text-transform: uppercase;
   }
-}
-@media only screen and (min-width: 768px) {
+
   .DressCode {
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     color: black;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     justify-content: center;
     background-color: cadetblue;
   }
+  .DressCode img {
+    height: 70px;
+    width: 70px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
   .DressCode h3 {
     text-transform: uppercase;
     color: white;
+    font-weight: bolder;
+    letter-spacing: 0.1cm;
+    margin-bottom: 10px;
   }
   .DressCode p {
     color: white;
   }
-}
-@media only screen and (min-width: 768px) {
-  .Instagram {
+
+  .spotifyLista {
     height: 50vh;
     width: 100%;
     color: black;
     text-align: center;
     justify-content: center;
-    background-image: url(img/party.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: white;
   }
-  .Instagram img {
+  .spotifyLista img {
     height: 70px;
     width: 70px;
     margin-top: 50px;
     margin-bottom: 10px;
   }
-  .Instagram h2 {
-    color: gold;
+  .spotifyLista h2 {
+    color: black;
     font-weight: bolder;
+    text-transform: uppercase;
   }
-  .Instagram p {
-    color: white;
+  .spotifyLista p {
+    color: black;
+    margin-top: 15px;
     margin-bottom: 15px;
   }
-  .Instagram .w3-button {
+  .spotifyLista .w3-button {
     border-radius: 2em;
     background-color: rosybrown;
     width: 250px;

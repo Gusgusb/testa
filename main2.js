@@ -1,6 +1,11 @@
 $(function () {
 
     $(".botoncito").click(function () {
-        console.log("¡La compra se ha realizado con exito!")
+        $(".Regalo").fadeOut();
+        $(".datosBancarios").fadeIn();
+    })
+    $(".datosBancarios").click(function () {
+        $(".datosBancarios").fadeOut("slow");
+        $(".Regalo").fadeIn("slow");
     })
 })
