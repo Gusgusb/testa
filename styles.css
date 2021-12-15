@@ -54,7 +54,7 @@
   .ContadorDias {
     display: flex;
     flex-direction: column;
-    background-color: rosybrown;
+    background-color: #f2cbc2;
     height: 15vh;
     width: 100%;
     justify-content: center;
@@ -63,7 +63,6 @@
     color: white;
     text-align: center;
     font-size: 25px;
-    margin-top: -15px;
     margin-bottom: 10px;
     text-transform: uppercase;
   }
@@ -83,16 +82,30 @@
   }
   .CeremoniaFiesta h3 {
     color: black;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
   }
   .CeremoniaFiesta p {
     color: black;
+    font-size: 15px;
   }
-  .CeremoniaFiesta .w3-button {
-    border-radius: 2em;
-    background-color: rosybrown;
-    width: 250px;
-    text-transform: uppercase;
+  .CeremoniaFiesta .botoncito2 {
+    background-color: #f2cac2;
     color: white;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    border-radius: 2em;
+    width: 250px;
+  }
+
+  .nosotros h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
   }
 
   .galeria {
@@ -185,7 +198,7 @@
   }
 
   .Regalo {
-    background-color: rosybrown;
+    background-color: #f2cbc2;
     height: 40vh;
     width: 100%;
     text-align: center;
@@ -196,37 +209,35 @@
     margin-top: 50px;
     margin-bottom: 10px;
   }
-  .Regalo h4 {
+  .Regalo p {
     color: white;
     margin-top: 5px;
     margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
   }
-  .Regalo .w3-button {
+  .Regalo .botoncito {
+    background-color: white;
+    color: #f2cac2;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
     border-radius: 2em;
-    background-color: rosybrown;
     width: 250px;
-    text-transform: uppercase;
-    color: white;
-  }
-  .Regalo .linea {
-    border-top: 3px solid white;
-    height: 2px;
-    max-width: 200px;
-    padding: 0;
-    margin: 20px auto 0 auto;
   }
 
   .datosBancarios {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rosybrown;
+    background-color: #f2cbc2;
     height: 40vh;
     width: 100%;
     text-align: center;
     color: white;
+    font-family: "Raleway", sans-serif;
   }
   .datosBancarios span {
+    font-family: "Raleway", sans-serif;
     font-weight: bolder;
     color: white;
   }
@@ -237,12 +248,14 @@
     color: black;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
   }
   .ConfirmarAsistencia h3 {
     text-transform: uppercase;
-    margin-top: 35px;
+    font-weight: bolder;
     margin-bottom: 15px;
+    font-family: "Raleway", sans-serif;
   }
   .ConfirmarAsistencia p {
     color: black;
@@ -256,28 +269,25 @@
   }
 
   .DressCode {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     color: black;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
-    background-color: cadetblue;
-  }
-  .DressCode img {
-    height: 70px;
-    width: 70px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    background-color: teal;
   }
   .DressCode h3 {
     text-transform: uppercase;
     color: white;
     font-weight: bolder;
-    letter-spacing: 0.1cm;
     margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
   }
   .DressCode p {
     color: white;
+    font-family: "Raleway", sans-serif;
   }
 
   .spotifyLista {
@@ -310,6 +320,21 @@
     width: 250px;
     text-transform: uppercase;
     color: white;
+  }
+
+  .gracias {
+    height: 10vh;
+    width: 100%;
+    background-color: #f2cbc2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gracias h3 {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
